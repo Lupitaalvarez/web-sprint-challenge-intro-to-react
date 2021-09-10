@@ -81,6 +81,16 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+- 
+
 1. Describe component state.
+
+- The component state is the Object that holds the information that will be populated into the component any time the API request is updated or pings the server again because of a change in the date. The data to be displayed is passed into the component in object form, and then populated onto the webpage via the component's layout.
+
 1. Describe props.
+
+- Props are the Keys of the Key: Value pairs when receiving an object of data back from the API call. You can pass in the values to all of the keys with {callbacks} and dot notation to return the value desired from the object of data received.
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+- Side effects are anything that affect something outside the scope of the function being executed: such as the .get, .then, and .catch in an axios API call. They are the process of receiving, assigning, and displaying the data received from the API call.
